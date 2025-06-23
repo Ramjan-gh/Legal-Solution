@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutioin </title>
+    <!-- google-font-poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- google-font-eb geramond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- tailwind config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'btn-color': '#E76F51',
+                        'primary-bg': 'rgba(182,140,90,1)',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        eb: ['EB Garamond', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-poppins">
+
+
+    <header>
+        <!-- navbar -->
+        <div class="navbar bg-base-100 flex-col items-start gap-y-3 lg:flex-row lg:items-center">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-[rgba(112,112,112,1)]">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl"><img src="resources/logo2.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[rgba(112,112,112,1)]">
+                    <li><a>Home</a></li>
+                    <li><a>Services
+                            <!-- svg > -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="rgba(112,112,112,1)" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a></li>
+                    <li><a>Cases
+                            <!-- svg > -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a></li>
+                    <li><a>Blog
+                            <!-- svg > -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a></li>
+                    <li><a>Contact Us
+                            <!-- svg > -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a></li>
+
+                </ul>
+            </div>
+            <div class="lg:justify-end navbar-end justify-start pl-4">
+                <a class="btn bg-primary-bg text-white lg:text-[18px] lg:font-semibold rounded-[8px] w-[220px] h-[64px]">Free Consultation</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <!-- hero -->
+            <div
+            class="hero min-h-screen items-start lg:items-center"
+            style="background-image: url(resources/banner.png)"
+          >
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-neutral-content text-center">
+              <div class="max-w-md md:max-w-full justify-items-center">
+                <h1 class="md:w-[810px]  mb-5 text-5xl md:text-[72px] font-eb font-bold md:font-extrabold pt-[50px] md:pt-0">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                    by injected humour.
+                </p>
+                <div class="flex space-x-[17px] justify-center">
+                    <input class="bg-white rounded w-[200px] md:w-[550px] h-[40px] md:h-[64px] pl-[10px] md:pl-[24px]" type="search" placeholder="Search your services" name=""
+                        id="">
+                    <button class="btn bg-primary-bg w-[100px] md:w-[150px] h-[40px] md:h-[64px] md:text-[20px] md:font-semibold">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
