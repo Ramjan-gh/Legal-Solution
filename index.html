@@ -16,7 +16,9 @@
     <!-- google-font-eb geramond -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- tailwind config -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -42,7 +44,7 @@
 
     <header>
         <!-- navbar -->
-        <div class="navbar bg-base-100 flex-col items-start gap-y-3 lg:flex-row lg:items-center ">
+        <div class="navbar bg-base-100 flex-col items-start gap-y-3 md:flex-row md:items-center px-0">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -97,8 +99,10 @@
 
                 </ul>
             </div>
-            <div class="lg:justify-end navbar-end justify-start pl-4">
-                <a class="btn bg-primary-bg text-white lg:text-[18px] lg:font-semibold rounded-[8px] w-[220px] h-[64px]">Free Consultation</a>
+            <div class="md:justify-end navbar-end justify-start pl-4">
+                <a
+                    class="btn bg-primary-bg text-white lg:text-[18px] lg:font-semibold rounded-[8px] w-[220px] h-[64px]">Free
+                    Consultation</a>
             </div>
         </div>
     </header>
@@ -107,85 +111,159 @@
     <main>
         <section class="hero">
             <!-- hero-segment -->
-            <div
-            class="hero min-h-screen items-start lg:items-center mb-16"
-            style="background-image: url(resources/banner.png)"
-          >
-            <div class="hero-overlay"></div>
-            <div class="hero-content text-neutral-content text-center">
-              <div class="max-w-md md:max-w-full justify-items-center">
-                <h1 class="md:w-[810px] pb-10  lg:pb-5 text-5xl md:text-[72px] font-eb font-bold md:font-extrabold pt-[50px] md:pt-0">We Provide Effective Legal Solutions</h1>
-                <p class="mb-20 lg:mb-5">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.
-                </p>
-                <div class="flex space-x-[17px] justify-center">
-                    <input class="bg-white rounded w-[200px] md:w-[550px] h-[40px] md:h-[64px] pl-[10px] md:pl-[24px]" type="search" placeholder="Search your services" name=""
-                        id="">
-                    <button class="btn bg-primary-bg w-[100px] md:w-[150px] h-[40px] md:h-[64px] md:text-[20px] md:font-semibold">Search</button>
+            <div class="hero min-h-screen items-start md:items-center mb-16"
+                style="background-image: url(resources/banner.png)">
+                <div class="hero-overlay"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md md:max-w-full justify-items-center">
+                        <h1
+                            class="md:w-[810px] pb-10  lg:pb-5 text-5xl md:text-[72px] font-eb font-bold md:font-extrabold pt-[50px] md:pt-0">
+                            We Provide Effective Legal Solutions</h1>
+                        <p class="mb-20 lg:mb-5">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form,
+                            by injected humour.
+                        </p>
+                        <div class="flex space-x-[17px] justify-center">
+                            <input
+                                class="bg-white rounded w-[200px] md:w-[550px] h-[40px] md:h-[64px] pl-[10px] md:pl-[24px]"
+                                type="search" placeholder="Search your services" name="" id="">
+                            <button
+                                class="btn bg-primary-bg w-[100px] md:w-[150px] h-[40px] md:h-[64px] md:text-[20px] md:font-semibold">Search</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </section>
 
 
         <section class="practice-area ">
             <!-- practice-area -->
-             <h1 class="pb-3 font-eb text-center text-[30px] md:text-[40px] font-extrabold text-[rgba(65,64,64,1)]">The Legal Practice Area</h1>
-             <p class="pb-10 text-center text-[16px] max-w-[80%] justify-self-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-            by injected humour.</p>
-             <div class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <h1 class="pb-3 font-eb text-center text-[30px] md:text-[40px] font-extrabold text-[rgba(65,64,64,1)]">The
+                Legal Practice Area</h1>
+            <p class="pb-10 text-center text-[16px] max-w-[80%] justify-self-center">There are many variations of
+                passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                by injected humour.</p>
+            <div class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="card1 flex flex-col space-y-[20px] items-center pt-[24px] border-b md:border-r px-[80px]">
                     <!-- card1 -->
                     <img src="resources/business.png" alt="">
-                    <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Business Law</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.</p>
+                    <h1 class="text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Business Law</h1>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
-                <div class="card2 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-r px-[80px] bg-gradient-to-b from-black to-white">
+                <div
+                    class="card2 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-r px-[80px] bg-gradient-to-b from-black to-white">
                     <!-- card2 -->
                     <img src="resources/criminal.png" alt="">
-                    <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px] ">Crim inal Law</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.</p>
+                    <h1 class=" text-[29px] md:text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px] ">Crim inal Law</h1>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
-                <div class="card3 flex flex-col space-y-[20px] items-center pt-[24px] border-b md:border-r lg:border-r-0 px-[80px]">
+                <div
+                    class="card3 flex flex-col space-y-[20px] items-center pt-[24px] border-b md:border-r lg:border-r-0 px-[80px]">
                     <!-- card3 -->
                     <img src="resources/child.png" alt="">
-                    <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Child Support</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.</p>
+                    <h1 class=" text-[29px] md:text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Child Support</h1>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
-                <div class="card4 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-r lg:border-b-0 px-[80px]">
+                <div
+                    class="card4 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-r lg:border-b-0 px-[80px]">
                     <!-- card4 -->
                     <img src="resources/education.png" alt="">
-                    <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Education Law</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.</p>
+                    <h1 class=" text-[29px] md:text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Education Law</h1>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
-                <div class="card5 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-b-0 md:border-r px-[80px]">
+                <div
+                    class="card5 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-b-0 md:border-r px-[80px]">
                     <!-- card5 -->
                     <img src="resources/divorce.png" alt="">
                     <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Divorce Law</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    by injected humour.</p>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
                 <div class="card6 flex flex-col space-y-[20px] items-center pt-[24px] px-[80px]">
                     <!-- card6 -->
                     <img src="resources/tax.png" alt="">
                     <h1 class=" text-[32px] font-eb font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Tax Law</h1>
-                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <p class="text-center text-[rgba(112,112,112,1)] pb-[4px]">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                        humour.</p>
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
-             </div>
+            </div>
         </section>
 
+        <section>
+            <div class="our-client-say my-[100px]">
+                <!-- our client say -->
+                <div class="w-full justify-items-center">
+                    <h1 class="text-[36px] mb:text-[40px] font-extrabold font-eb text-center text-[rgba(65,64,64,1)] pb-[18px]">What Our Client Say</h1>
+                    <p class="text-[16px] text-center w-[60%] text-[rgba(112,112,112,1)] pb-[40px]">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered
+                        alteration in some form,
+                        by injected humour.</p>
+                </div>
+                <div class="carousel w-full md:h-[500px] md:overflow-hidden">
+                    <div id="slide1" class="carousel-item relative w-full items-center">
+                        <img src="resources/slider-1.jpg"
+                            class="w-full" />
+                        <img class="absolute size-full" src="resources/Rectangle 7.png" alt="">
+                        <div class=" flex-col justify-items-center absolute">
+                            <div class=" w-[80px] rounded-full overflow-hidden border border-white">
+                                <img class="" src="resources/abc.jpg" alt="">
+                        
+                            </div>
+                            <div class="pt-[20px] flex-col justify-items-center space-y-5 text-white">
+                                <h1 class="">Awlad Hossain</h1>
+                                <p>UIX Designer</p>
+                                <p class="w-[60%] text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+                                    literature
+                                    from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                                    in
+                                    Virginia,
+                                    looked up one of the more obscure Latin words, consectetur.</p>
+                            </div>          </div>
+                        <div class="absolute left-5 right-5 flex justify-between">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full items-center">
+                        <img src="resources/slider-2.jpg"
+                            class="w-full" />
+                        <img class="absolute size-full" src="resources/Rectangle 7.png" alt="">
+                        <div class="absolute left-5 right-5 flex justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full items-center">
+                        <img src="resources/slider-3.jpg"
+                            class="w-full" />
+                            <img class="absolute size-full" src="resources/Rectangle 7.png" alt="">
+                        <div class="absolute left-5 right-5 flex justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
     </main>
 
 
