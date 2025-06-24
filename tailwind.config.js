@@ -4,6 +4,7 @@
    content: ["./src/**/*.{html,js}"],
    theme: {
      extend: {
+      // not working color
        colors: {
          "btn-color": "#E76F51",
          "primary-bg": "rgba(182,140,90,1)",

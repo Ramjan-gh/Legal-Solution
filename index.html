@@ -22,10 +22,10 @@
     
 </head>
 
-<body class="font-[poppins] w-full max-w-[1200px] justify-self-center">
+<body class="font-[poppins]">
 
 
-    <header>
+    <header class="w-full max-w-[1200px] justify-self-center">
         <!-- navbar -->
         <div class="navbar bg-base-100 flex-col items-start gap-y-3 md:flex-row md:items-center px-0">
             <div class="navbar-start">
@@ -91,7 +91,7 @@
     </header>
 
 
-    <main>
+    <main class="w-full max-w-[1200px] justify-self-center">
         <section class="hero w-full overflow-hidden">
             <!-- hero-segment -->
             <div class="hero min-h-screen items-start md:items-center mb-16"
@@ -171,7 +171,7 @@
                     <img class="pb-[60px]" src="resources/Frame.png" alt="">
                 </div>
                 <div
-                    class="card5 flex flex-col space-y-[20px] items-center pt-[24px] border-b lg:border-b-0 md:border-r px-[80px]">
+                    class="card5 flex flex-col space-y-[20px] items-center pt-[24px] border-b md:border-b-0 md:border-r px-[80px]">
                     <!-- card5 -->
                     <img src="resources/divorce.png" alt="">
                     <h1 class=" text-[32px] font-[eb] font-extrabold text-[rgba(65,64,64,1)] pb-[4px]">Divorce Law</h1>
@@ -298,14 +298,14 @@
 
         <section class="accordion">
             <!-- accordion -->
-            <h1 class="text-[rgba(65,64,64,1)] w-[95%] text-[40px] font-extrabold font-[eb] text-center">Frequently
+            <h1 class="text-[rgba(65,64,64,1)] w-[95%] text-[40px] font-extrabold font-[eb] text-center justify-self-center">Frequently
                 Asked Any Questions</h1>
             <p class="pt-[24px] pb-[48px] text-center w-[95%] md:w-[60%] justify-self-center">There are many variations
                 of passages of Lorem Ipsum available, but the majority have suffered alteration
                 in some form,
                 by injected humour.</p>
             <div class="w-full overflow-hidden">
-                <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="hero-content flex-col flex lg:flex-row-reverse lg:justify-between">
                     <img src="resources/faq (1).png" class="max-w-sm " />
                     <div class="space-y-[30px]">
                         <div class="collapse collapse-plus bg-[rgba(243,243,243,1)] border border-base-300">
@@ -349,7 +349,7 @@
             <h1></h1>
             <p></p>
             <div class="flex flex-col space-y-10 md:flex-row w-full items-stretch">
-                <div class="left-side flex-1 md:pr-3 h-full">
+                <div class="left-side flex-1 md:pr-3 h-full mb-0">
                     <div class="cards grid grid-cols-1 md:grid-cols-2">
                         <div
                             class="bg-[rgba(243,243,243,1)] card1 flex flex-col space-y-[20px] items-center py-[60px] border-b md:border-r px-2">
@@ -392,7 +392,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right-side flex-1 md:pl-3 flex flex-col">
+                <div class="right-side flex-1 md:pl-3">
                     <fieldset class="fieldset flex flex-1 flex-col h-full justify-between">
                         <input class="rounded-[8px] w-full h-[72px] pl-6 border-none bg-[rgba(243,243,243,1)]" type="text" placeholder="My awesome page" />
                         <input class="rounded-[8px] w-full h-[72px] pl-6 border-none bg-[rgba(243,243,243,1)]" type="text" placeholder="My awesome page" />
@@ -408,8 +408,43 @@
     </main>
 
 
-    <footer>
-
+    <footer class="bg-black text-[rgba(207,207,207,1)] py-[48px]">
+        <div class="max-w-[1200px] justify-self-center">
+            <div class="flex flex-col space-y-24 md:flex-row space-x-20">
+                <div class="flex-1 flex flex-col">
+                    <div class="pb-[32px]">
+                        <img class="h-[44px]" src="resources/logo.png" alt="">
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+                        some form,
+                        by injected humour.</p>
+                </div>
+                <div class="flex-1 flex flex-col">
+                    <h1 class="pb-[32px] text-[24px] font-extrabold font-[eb]">Usefull Link</h1>
+                    <ul class="leading-[40px]">
+                        <li>Homes</li>
+                        <li>About Us</li>
+                        <li>Cases</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="flex-1 flex flex-col">
+                    <h1 class="pb-[32px] text-[24px] font-extrabold font-[eb]">Contact Now</h1>
+                    <ul>
+                        <li>555 4th 5t NW, Washington <br>DC 20530, United States</li>
+                        <br><li>+88 01750 000 000 <br>+88 01750 000 000</li>
+                        <br><li>info@gmail.com <br>info@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="flex-1 flex flex-col relative">
+                    <h1 class="pb-[32px] text-[24px] font-extrabold font-[eb]">Subscribe</h1>
+                    <p class="pb-[12px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                    <input class="h-[72px] bg-white text-[rgba(160,160,160,1)] pl-5 rounded-md" type="text" placeholder="Email Address">
+                    <img class="absolute right-[15px] bottom-[15px] md:top-[168px] scale-180" src="resources/Frame.png" alt="">
+                </div>
+                </div>
+        </div>
     </footer>
 
 
